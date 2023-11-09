@@ -1,6 +1,6 @@
 <?php
 $botToken = "6510985547:AAFzbKjdKy_hj7E9qIWyT5_G06TDdcUuvoo"; 
-$webhookUrl = "https://helpvozchatpruusr.faceldi.net/hv_telegram_integration.php"; 
+$webhookUrl = "https://github.com/agomezquint/pruebas/edit/main/hv_telegram_integration.php"; 
 $apiUrl = "https://api.telegram.org/bot$botToken/setWebhook?url=$webhookUrl";
            
 $ch = curl_init($apiUrl);
